@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>top-level-items</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>8</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>8</string>
+					<key>Timestamp</key>
+					<string>724331997.086095</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>home-directory</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Library/Developer/Xcode/DerivedData/SkyForecast-cvtglhirujxaygefftvsvydfenqy/Build/Products/Debug-iphonesimulator/PermissionsService/PermissionsService.modulemap</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string></string>
+				<key>leading</key>
+				<string>
+
+</string>
+				<key>trailing</key>
+				<string>module PermissionsService.Swift {
+  header "/Users/evgeniyvoronov/Library/Developer/Xcode/DerivedData/SkyForecast-cvtglhirujxaygefftvsvydfenqy/Build/Products/Debug-iphonesimulator/PermissionsService/Swift Compatibility Header/PermissionsService-Swift.h"
+  requires objc
+</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+	</array>
+</dict>
+</plist>

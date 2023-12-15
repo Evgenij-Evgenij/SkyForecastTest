@@ -22,3 +22,18 @@ extension UIViewController {
     }
     
 }
+
+//extension UIStackView {
+//    func addSeparator (size: CGFloat) {
+//        let view = UIView()
+//        
+//        view.translatesAutoresizingMaskIntoConstraints = false
+//        if axis == .vertical {
+//            view.heightAnchor.constraint(equalToConstant: size).isActive = true
+//        } else {
+//            view.widthAnchor.constraint(equalToConstant: size).isActive = true
+//        }
+//        
+//        addArrangedSubview(view)
+//    }
+//}

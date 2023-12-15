@@ -14,7 +14,8 @@ class DailyWeatherTableViewCell: UITableViewCell {
     
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var summaryWeatherLabel: UILabel!
-    
+    @IBOutlet weak var temperatureNow: UILabel!
+    @IBOutlet weak var feelsLike: UILabel!
     
     func setup(with object: DailyWeather) {
         let date = Date(timeIntervalSince1970: object.datetimeEpoch)
@@ -24,5 +25,7 @@ class DailyWeatherTableViewCell: UITableViewCell {
         dateLabel.text = formattedDate
 
         summaryWeatherLabel.text = object.description
+        temperatureNow.text = "Temp Now is \(object.temp)"
+        feelsLike.text = "Feels like \(object.feelslike)"
     }
 }

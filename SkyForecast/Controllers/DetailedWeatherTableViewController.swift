@@ -11,6 +11,7 @@ import UIKit
 
 class DetailedWeatherTableViewController: UITableViewController {
     static let identifier = "DetailedWeatheTableViewController"
+    let titleName = "Forecast"
 
     //MARK: -
     @IBOutlet weak var highestTempratureLabel: UILabel!
@@ -42,7 +43,11 @@ class DetailedWeatherTableViewController: UITableViewController {
         
         windSpeedLabel.text = "Wind speed is aroud \(object.windspeed)"
         visibilityLabel.text = "Visibility \(object.visibility)"
-
-        self.title = "Forecast"
+        if object.visibility <= 10 {
+            visibilityLabel.textColor = .red
+            visibilityLabel.text = "Visibility \(object.visibility), BE CAREFUL!"
+            
+        }
+        self.title = titleName
     }
 }
